@@ -11,7 +11,7 @@ Frontend. A simple jQuery based HTML template of Search Box with a Search button
 
 API Endpoints. GET http://localhost:8000 This endpoint renders a search box in the browser.
 
-GET http://localhost:800/search/?term=prac
+GET http://localhost:8000/search/?term=proc
 
 This endpoint finally returns a response which is of JSON array containing 25 results, 
 
