@@ -11,15 +11,13 @@ Frontend. A simple jQuery based HTML template of Search Box with a Search button
 
 # Running Tests
 
-cd autocomplete
-Python manage.py runserver
+1.cd autocomplete.
+2.Python manage.py runserver
 
-API Endpoints. GET http://localhost:8000 This endpoint renders a search box in the browser.
+3.API Endpoints. GET http://localhost:8000 This endpoint renders a search box in the browser.
 
 
-GET http://localhost:8000/search/?term=proc
-
-This endpoint finally returns a response which is of JSON array containing 25 results, 
+4.GET http://localhost:8000/search/?term=proc This endpoint finally returns a response which is of JSON array containing 25 results, 
 
 Matches occurs anywhere in the string, not just at the beginning. For example, eryx matches archaeopteryx (among others). Matches at the start of a word ranks higher, For example, for the input pract, the result practical ranks higher than impractical. Common words (those with a higher usage count) ranks higher than rare words. Short words ranks higher than long words. For example, given the input environ, the result environment ranks higher than environmentalism. An exact match should always be ranked as the first result.
 
