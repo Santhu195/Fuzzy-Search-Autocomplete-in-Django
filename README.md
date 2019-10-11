@@ -9,7 +9,13 @@ Requirements
 
 Frontend. A simple jQuery based HTML template of Search Box with a Search button.
 
+# Running Tests
+
+cd autocomplete
+Python manage.py runserver
+
 API Endpoints. GET http://localhost:8000 This endpoint renders a search box in the browser.
+
 
 GET http://localhost:8000/search/?term=proc
 
