@@ -12,6 +12,7 @@ Frontend. A simple jQuery based HTML template of Search Box with a Search button
 # Running Tests
 
 1.cd autocomplete.<br>
+
 2.Python manage.py runserver
 
 3.API Endpoints. GET http://localhost:8000 This endpoint renders a search box in the browser.
